@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5562408604301686709
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 854e89ffa646cd046a8bd97571c8b48d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.6
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 854e89ffa646cd046a8bd97571c8b48d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.894
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 854e89ffa646cd046a8bd97571c8b48d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.728
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 854e89ffa646cd046a8bd97571c8b48d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.65339553
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 854e89ffa646cd046a8bd97571c8b48d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.6531675
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 854e89ffa646cd046a8bd97571c8b48d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.2706453
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 854e89ffa646cd046a8bd97571c8b48d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.27055082
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 854e89ffa646cd046a8bd97571c8b48d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -89.98
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 854e89ffa646cd046a8bd97571c8b48d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -45
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 854e89ffa646cd046a8bd97571c8b48d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 854e89ffa646cd046a8bd97571c8b48d, type: 3}
+      propertyPath: m_Name
+      value: VigmaToy
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 854e89ffa646cd046a8bd97571c8b48d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 937443203368832867}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 854e89ffa646cd046a8bd97571c8b48d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6483441346623338370}
+  m_SourcePrefab: {fileID: 100100000, guid: 854e89ffa646cd046a8bd97571c8b48d, type: 3}
+--- !u!1 &4751522965940030180 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 854e89ffa646cd046a8bd97571c8b48d, type: 3}
+  m_PrefabInstance: {fileID: 5562408604301686709}
+  m_PrefabAsset: {fileID: 0}
+--- !u!135 &937443203368832867
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4751522965940030180}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.0070161666
+  m_Center: {x: 0.0031604469, y: 0.001958511, z: -0.00002629161}
+--- !u!114 &6483441346623338370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4751522965940030180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d50de76b23ff2b04f99e4477fa34bd5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemName: Vigma's Toy
+  itemDescription: This is Vigma's rubber duck toy! She can't go anywhere without
+    it. Press Space to play with her!
+  itemSprite: {fileID: 21300000, guid: 2f27a5843912997478b6dd49daa3c7c4, type: 3}
+  hintText: {fileID: 0}

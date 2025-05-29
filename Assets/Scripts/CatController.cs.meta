@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: f5fc20fdbee24ca4fbf3e40b1ef95ace
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - catPurr: {fileID: 8300000, guid: f7f66957484d25e4784493a840e5574b, type: 3}
+  - catWhine: {fileID: 8300000, guid: 30480eea326791b4c951d2274bac7a85, type: 3}
+  - catHappy: {fileID: 8300000, guid: 3def54dca8ec700409c6d663d991139b, type: 3}
+  - hintText: {instanceID: 0}
+  - inventoryManagement: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

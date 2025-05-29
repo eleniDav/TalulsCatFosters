@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &4470955946005353501
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 422db584148dec744923de50e589582d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.294
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 422db584148dec744923de50e589582d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.87
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 422db584148dec744923de50e589582d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.801
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 422db584148dec744923de50e589582d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70356965
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 422db584148dec744923de50e589582d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.2971336
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 422db584148dec744923de50e589582d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.44630268
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 422db584148dec744923de50e589582d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.46638548
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 422db584148dec744923de50e589582d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0.104
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 422db584148dec744923de50e589582d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -64.846
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 422db584148dec744923de50e589582d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -67.145
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 422db584148dec744923de50e589582d, type: 3}
+      propertyPath: m_Name
+      value: BobiToy
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 422db584148dec744923de50e589582d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6554330252976026069}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 422db584148dec744923de50e589582d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7848865267698684131}
+  m_SourcePrefab: {fileID: 100100000, guid: 422db584148dec744923de50e589582d, type: 3}
+--- !u!1 &3660704595931097420 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 422db584148dec744923de50e589582d, type: 3}
+  m_PrefabInstance: {fileID: 4470955946005353501}
+  m_PrefabAsset: {fileID: 0}
+--- !u!135 &6554330252976026069
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3660704595931097420}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.680711
+  m_Center: {x: -0.0000000028684335, y: 0.013551944, z: 0.19426286}
+--- !u!114 &7848865267698684131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3660704595931097420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d50de76b23ff2b04f99e4477fa34bd5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemName: Bobi's Toy
+  itemDescription: This is Bobi's favorite flower paper toy! It's handmade and he
+    loves looking at it twist with the air!
+  itemSprite: {fileID: 0}
+  hintText: {fileID: 0}
